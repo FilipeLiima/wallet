@@ -96,14 +96,16 @@ def main():
     col2.area_chart(df[["Valor Pago", "Volume Total Acumulado"]])
 
     # Gráfico de atividades de compra
-    col2.subheader('Fluxo de operações por período')
-    chart_data = pd.DataFrame(formatted_data, columns=["Data Transação"])
-    col2.line_chart(chart_data)
+   # Gráfico de atividades de compra
+    col1.subheader('Composição da carteira')
+    chart_data = pd.DataFrame(formatted_data, columns=["Ativo", "Volume Total Acumulado"])
+    col1.bar_chart(chart_data.set_index("Ativo"))
+
 
     # Gráfico de atividades de compra
-    col1.subheader('Gráfico de Atividade')
-    chart_data = pd.DataFrame(formatted_data, columns=["Ativo"])
-    col1.scatter_chart(chart_data)
+    col2.subheader('Gráfico de Atividade')
+    chart_data = pd.DataFrame(formatted_data, columns=["Quantidade"])
+    col2.line_chart(chart_data)
 
     # Fechar conexão
     conn.close()
