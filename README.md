@@ -7,4 +7,5 @@
 - Streamlit
 
 Prévia em construção
-![Alt text](image-1.png)
+![image](https://github.com/FilipeLiima/wallet/assets/131200594/84473101-4f40-4e71-b0a4-27c3238ff3b5)
+
