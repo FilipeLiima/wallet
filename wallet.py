@@ -101,9 +101,9 @@ def main():
     col2.line_chart(chart_data)
 
     # Gráfico de atividades de compra
-    col1.subheader('Composição da carteira')
+    col1.subheader('Gráfico de Atividade')
     chart_data = pd.DataFrame(formatted_data, columns=["Ativo"])
-    col1.bar_chart(chart_data)
+    col1.scatter_chart(chart_data)
 
     # Fechar conexão
     conn.close()
