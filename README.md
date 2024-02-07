@@ -1,4 +1,4 @@
-### Wallet de Gerenciamento de Ativos Financeiros:
+### Wallet:
 
 A Wallet de Gerenciamento de Ativos Financeiros é uma aplicação desenvolvida em Python, Streamlit e PostgreSQL, projetada para fornecer aos usuários uma interface intuitiva para gerenciar e acompanhar seus ativos financeiros em uma carteira digital.
 
